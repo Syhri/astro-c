@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Proyek</title>
+</head>
+
+<body>
+    <main>
+        <h1>Registration Form</h1>
+        <hr>
+        <h2>Personal Details</h2>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fullName">First Name&ast;</label> <br>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your first name" required>
+                    </td>
+                    <td>
+                        <label for="lastName">Last Name</label> <br>
+                        <input type="text" id="lastName" name="fullName" placeholder="Enter your last name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label for="email">Email&ast;</label> <br>
+                        <input type="email" id="email" name="email placeholder=" Enter your email" size="46" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="password">Password&ast;</label> <br>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </td>
+                    <td>
+                        <label for="confirm-password">Confirm Password&ast;</label> <br>
+                        <input type="password" name="confirm-password" placeholder="Enter your password again" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Gender:</label> <br>
+                        <input type="radio" id="gender" name="gender">
+                        <label for="gender">Male</label>
+                        <input type="radio" id="gender" name="gender">
+                        <label for="gender">Female</label>
+                    </td>
+                    <td>
+                        <label for="">Hobbies</label>
+                        <br>
+                        <input type="checkbox" id="music" name="music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" id="sports" name="sports">
+                        <label for="sports">Sports</label>
+                        <!-- travel dan movies akan di buat kolom sendiri -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="travel" name="travel">
+                        <label for="travel">Travel</label>
+                        <input type="checkbox" id="movies" name="movies">
+                        <label for="movies">Movies</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="age">Age:</label> <br>
+                        <input type="number" id="age" name="age" min="1" max="150" required>
+                    </td>
+                    <td>
+                        <label for="profile-pic">Upload Profile Picture</label> <br>
+                        <input type="file" id="profile-pic" name="profile-pic" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="bio">Bio</label> <br>
+                        <textarea name="bio" id="bio" cols="46" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Next &rarr;</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>
