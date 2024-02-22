@@ -123,7 +123,7 @@ article.ctn-2 {
     margin: 30px 50px;
     margin-top: 50px;
     height: 500px;
-    padding: 20px;
+    padding: 70px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -153,7 +153,6 @@ article.ctn-2 {
     height: 65vh;
     padding: 20px;
     padding-top: 0;
-
 }
 
 .dsds-skills {
