@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+}
+
+.ctn-navbar {
+    border: 1px solid white;
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* z-index: 9999; */
+}
+
+.logo p {
+    font-size: 25px;
+}
+
+.navigasi-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+.navigasi-list li {
+    list-style-type: none;
+}
+
+.navigasi-list li a {
+    color: white;
+    border-radius: 999px;
+    text-decoration: none;
+    padding: 0.9rem 1.8rem;
+    font-weight: 500;
+    font-size: 1.05rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigasi-list li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
