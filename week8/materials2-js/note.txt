@@ -1,0 +1,11 @@
+Tipe Data primitif
+
+Number :
+
+int = 11;
+float = 9.81;
+string = "Ini adalah string"
+
+Conditional
+
+
