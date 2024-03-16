@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container-header {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navigasi-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container-ul a:hover {
+    background-color: #496989;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ctn-deskripsi {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.ctn-deskripsi h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    color: #496989;
+}
+
+.paragraf {
+    text-align: justify;
+}
+
+.container-gambar img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.ctn-deskripsi a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: powderblue;
+    background-color: gray;
+}
+
+.button-style {
+    margin-top: 35px;
+}
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+}
+
+main aside .social-media {
+    height: 100%;
+    display: flex;
+}
+
+main aside .social-media ul {
+    padding: 1.5rem 1rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: auto;
+    background-color: #2d3e50;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+main aside .social-media li {
+    list-style-type: none;
+}
+
+main aside .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+
+    transition: all 0.1s ease-in-out;
+}
+
+main aside .social-media li a:hover {
+    color: #89b0d9;
+}
