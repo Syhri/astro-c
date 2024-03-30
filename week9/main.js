@@ -10,7 +10,6 @@
 //     }
 // }
 
-
 /* BREAK */
 // for(let i = 0; i < 5; i++){
 //     if(i == 3){
@@ -19,8 +18,9 @@
 //     console.log("Ini adalah iterasi ke-", i + 1)
 // }
 
-for(let baris = 1; baris <= 2; baris++){
-    for(let kolom = 1; kolom <= 3; kolom++){
-        console.log("Ini adalah baris " + baris + ", kolom " + kolom);
-    }
-}
+// for(let baris = 1; baris <= 2; baris++){
+//     for(let kolom = 1; kolom <= 3; kolom++){
+//         console.log("Ini adalah baris " + baris + ", kolom " + kolom);
+//     }
+// }
+
