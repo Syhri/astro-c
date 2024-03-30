@@ -18,9 +18,6 @@ header {
     justify-content: space-around;
 }
 
-.nav-list {
-    
-}
 
 .nav-list ul {
     list-style-type: none;
@@ -64,7 +61,6 @@ main {
 
 .description p {
     line-height: 20px;
-    text-indent: 30px;
     text-align: justify;
 }
 
@@ -80,3 +76,8 @@ main {
     border-radius: 50%;
 }
 
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+    }
+}
